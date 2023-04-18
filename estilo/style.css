@@ -8,7 +8,6 @@
     --font1: Verdana, Geneva, Tahoma, sans-serif; 
     --font2: 'Passion One', 'cursive';
     --font3: 'Sriracha', 'cursive';
-
 }
 
 * {
@@ -27,6 +26,10 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    position: relative;
+    position: sticky;
+    top: -1px;
+    background-color: black;
 }
 
 header > h1 {
@@ -102,4 +105,5 @@ footer{
     color: white;
     text-align: center;
     padding: 1px;
+    font-size: 27px;
 }
