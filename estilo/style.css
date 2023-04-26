@@ -16,6 +16,11 @@
     font-size: 1em;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 html,body {
     max-width: 1000vh;
     min-height: 1000vh;
